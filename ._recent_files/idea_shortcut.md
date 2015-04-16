@@ -1,0 +1,1 @@
+/Users/coder/Documents/note/code_life/set/idea_shortcut.md
