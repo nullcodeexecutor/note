@@ -50,15 +50,7 @@
 	2)定义NamespaceHandlerSupport和BeanDefinitionParser。自定义的NamespaceHandlerSupport中调用自定义的BeanDefinitionParser<br/>
 	3)spring.handlers关联命名空间和NamespaceHandlerSupport。spring.shcemas关联命名空间和xsd文件位置  spring会去加载spring.*.jar/META-INF下的这两个配置文件
 	
-	
-<br/><br/>
-	
-####注意事项
-	需要注意spring对扩展点的执行顺序,下面是几个易混淆的点的执行顺序。
-	1)BeanPostProcessor的postProcessBeforeInitialization方法
-	2)InitializingBean的afterPropertiesSet方法
-	3)init-method方法
-	4)BeanPostProcessor的postProcessAfterInitialization方法
+
 	
 	
 	
