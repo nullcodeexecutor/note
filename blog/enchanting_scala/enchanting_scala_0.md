@@ -39,16 +39,38 @@ object Hello {
 
 虽然是个短短的``Hello Scala!``，但也包含了很多东西。下面我们一分析下，着重与  **java** 对比。
 
+
 ####package
-+ 与java不同，包名与文件夹不存在完全的对应关系。
-+ 下面写法也支持
++ 与java类似，使用package和import语法组织和引入包，编译后的class文件按包名来组织。但与java不同的是源码中包名不需要与目录名一致。
++ 下面写法也支持，类似c#。
 
 ```scala
 package org.scala.study.grammer.hello {
-  object Hello {
-    def main(args: Array[String]) {
-      	println("Hello Scala!")
-    }
-  }
+	//todo
 }
 ```
+or
+
+```scala
+package org {
+	package scala {
+		...
+	}
+}
+```
+
+####object
+object可以初步理解为一个全是静态方法的类，而且是singleton的。
+
+####def
+方法的声明用关键字def
+
+####参数
+参数名在前，类型在后
+
+----
+
+**欢迎指正**
+
+
+
