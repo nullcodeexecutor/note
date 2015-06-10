@@ -1,0 +1,6 @@
+<br/>
+**创建用户及授权**
++ CREATE USER 'wangyuantao'@'%' IDENTIFIED BY 'wangyuantao';
++ REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'wangyuantao'@'%';
++ GRANT SELECT,INSERT,UPDATE,DELETE,LOCK TABLES,EXECUTE,DROP,CREATE ON mydb.* TO 'wangyuantao'@'%';
++ FLUSH PRIVILEGES;
