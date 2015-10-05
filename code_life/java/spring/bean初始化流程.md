@@ -31,11 +31,13 @@
 + 
 	1)BeanPostProcessor的postProcessBeforeInitialization方法
 	
-	2)InitializingBean的afterPropertiesSet方法
+	2)@PostConstruct
+
+	3)InitializingBean的afterPropertiesSet方法
 	
-	3)init-method方法
+	4)init-method方法
 	
-	4)BeanPostProcessor的postProcessAfterInitialization方法
+	5)BeanPostProcessor的postProcessAfterInitialization方法
 	
 	
 	
